@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('layouts.master');
+});
+
+Route::get('buttons', function () {
+    return view('backend.buttons');
 });
