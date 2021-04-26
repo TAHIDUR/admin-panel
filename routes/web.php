@@ -12,9 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('layouts.master');
+    return view('backend.dashboard.index');
 });
 
 Route::get('buttons', function () {
-    return view('backend.buttons');
+    return view('backend.componenets.buttons');
+});
+
+Route::get('general', function () {
+    return view('backend.componenets.general');
 });
