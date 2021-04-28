@@ -11,14 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('backend.dashboard.index');
-});
-
-Route::get('buttons', function () {
-    return view('backend.componenets.buttons');
-});
-
-Route::get('general', function () {
-    return view('backend.componenets.general');
-});
+Route::get('index', 'DashboardController@index')->name('index');
+Route::get('table', 'DashboardController@table')->name('table');
+Route::get('chartjs', 'DashboardController@chartjs')->name('chartjs');
+Route::get('simple', 'DashboardController@simple')->name('simple');
+Route::get('general', 'DashboardController@general')->name('general');
+Route::get('buttons', 'DashboardController@buttons')->name('buttons');
+Route::get('main/component', 'DashboardController@main')->name('component.main');
+Route::get('toastr', 'DashboardController@toastr')->name('toastr');
+Route::get('ion', 'DashboardController@ion')->name('ion');
+Route::get('fontawesome', 'DashboardController@fontawesome')->name('fontawesome');
+Route::get('flag', 'DashboardController@flag')->name('flag');

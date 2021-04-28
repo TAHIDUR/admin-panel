@@ -24,28 +24,28 @@
         <li>
           <a href="#" class="has-dropdown"><i class="ion ion-ios-albums-outline"></i><span>Components</span></a>
           <ul class="menu-dropdown">
-            <li><a href="{{ URL::to('general') }}"><i class="ion ion-ios-circle-outline"></i> Basic</a></li>
-            <li><a href="backend/components.html"><i class="ion ion-ios-circle-outline"></i> Main Components</a></li>
-            <li><a href="{{ URL::to('buttons') }}"><i class="ion ion-ios-circle-outline"></i> Buttons</a></li>
-            <li><a href="backend/toastr.html"><i class="ion ion-ios-circle-outline"></i> Toastr</a></li>
+            <li><a href="{{ route('general') }}"><i class="ion ion-ios-circle-outline"></i> Basic</a></li>
+            <li><a href="{{ route('component.main') }}"><i class="ion ion-ios-circle-outline"></i> Main Components</a></li>
+            <li><a href="{{ route('buttons') }}"><i class="ion ion-ios-circle-outline"></i> Buttons</a></li>
+            <li><a href="{{ route('toastr') }}"><i class="ion ion-ios-circle-outline"></i> Toastr</a></li>
           </ul>
         </li>
         <li>
           <a href="#" class="has-dropdown"><i class="ion ion-flag"></i><span>Icons</span></a>
           <ul class="menu-dropdown">
-            <li><a href="backend/ion-icons.html"><i class="ion ion-ios-circle-outline"></i> Ion Icons</a></li>
-            <li><a href="backend/fontawesome.html"><i class="ion ion-ios-circle-outline"></i> Font Awesome</a></li>
-            <li><a href="backend/flag.html"><i class="ion ion-ios-circle-outline"></i> Flag</a></li>
+            <li><a href="{{ route('ion') }}"><i class="ion ion-ios-circle-outline"></i> Ion Icons</a></li>
+            <li><a href="{{ route('fontawesome') }}"><i class="ion ion-ios-circle-outline"></i> Font Awesome</a></li>
+            <li><a href="{{ route('flag') }}"><i class="ion ion-ios-circle-outline"></i> Flag</a></li>
           </ul>
         </li>
         <li>
-          <a href="backend/table.html"><i class="ion ion-clipboard"></i><span>Tables</span></a>
+          <a href="{{ route('table') }}"><i class="ion ion-clipboard"></i><span>Tables</span></a>
         </li>
         <li>
-          <a href="backend/chartjs.html"><i class="ion ion-stats-bars"></i><span>Chart.js</span></a>
+          <a href="{{ route('chartjs') }}"><i class="ion ion-stats-bars"></i><span>Chart.js</span></a>
         </li>
         <li>
-          <a href="backend/simple.html"><i class="ion ion-ios-location-outline"></i><span>Google Maps</span></a>
+          <a href="{{ route('simple') }}"><i class="ion ion-ios-location-outline"></i><span>Google Maps</span></a>
         </li>
         <li>
           <a href="#" class="has-dropdown"><i class="ion ion-ios-copy-outline"></i><span>Examples</span></a>
